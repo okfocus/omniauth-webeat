@@ -2,7 +2,7 @@
 
 # Omniauth-webeat
 
-This is a Ruby gem containing an OminAuth strategy for (webe.at)[http://webe.at]. Use it to authenticate people with their webe.at accounts.
+This is a Ruby gem containing an OminAuth strategy for [webe.at](http://webe.at). Use it to authenticate people with their webe.at accounts.
 
 ## Usage
 
@@ -20,7 +20,7 @@ end
 
 ```
 
-You can retrieve your consumer tokens (here)[http://webe.at/oauth].
+You can retrieve your consumer tokens [here](http://webe.at/oauth).
 
 ### Ruby Support
 
