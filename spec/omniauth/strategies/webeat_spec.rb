@@ -7,7 +7,7 @@ describe OmniAuth::Strategies::WeBeAt do
 
   context "client options" do
     it 'should have correct name' do
-      subject.options.name.should eq("webe.at")
+      subject.options.name.should eq("webeat")
     end
 
     it 'should have correct site' do
