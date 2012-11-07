@@ -5,7 +5,7 @@ module OmniAuth
   module Strategies
     class WeBeAt < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
-      option :name, "webe.at"
+      option :name, "webeat"
 
       option :client_options, {
         :site => "http://webe.at",
