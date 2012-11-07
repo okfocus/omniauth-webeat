@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/okfocus/omniauth-webeat.png)](http://travis-ci.org/okfocus/webeat)
+[![Build Status](https://secure.travis-ci.org/okfocus/omniauth-webeat.png)](http://travis-ci.org/okfocus/omniauth-webeat)
 
 # Omniauth-webeat
 
