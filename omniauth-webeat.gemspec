@@ -2,7 +2,7 @@
 require File.expand_path('../lib/omniauth-webeat/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "omniauth-twitter"
+  s.name        = "omniauth-webeat"
   s.version     = OmniAuth::WeBeAt::Version
   s.authors     = ["Jonathan Vingiano"]
   s.email       = ["j@okfoc.us"]
