@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = ["j@okfoc.us"]
   s.homepage    = "https://github.com/okfocus/omniauth-webeat"
   s.summary     = %q{OmniAuth strategy for webe.at}
-  s.description = %q{OmniAuth strategy for webe.at}
+  s.description = %q{Authenticate users with webe.at using OmniAuth}
 
   s.rubyforge_project = "omniauth-webeat"
 
