@@ -3,7 +3,7 @@ module OmniAuth
     class Version
       MAJOR = "0" unless defined? OmniAuth::WeBeAt::MAJOR
       MINOR = "1" unless defined? OmniAuth::WeBeAt::MINOR
-      PATCH = "2" unless defined? OmniAuth::WeBeAt::PATCH
+      PATCH = "3" unless defined? OmniAuth::WeBeAt::PATCH
 
       class << self
 
