@@ -20,6 +20,10 @@ module OmniAuth
         {
           :email => raw_info["email"],
           :name => raw_info["name"],
+          :username => raw_info["username"]
+          :avatar => raw_info["avatar"],
+          :id => raw_info["id"],
+          :permalink => raw_info["permalink"],
           :token => access_token
         }
       end
