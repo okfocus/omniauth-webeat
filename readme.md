@@ -2,7 +2,7 @@
 
 # Omniauth-webeat
 
-This is a Ruby gem containing an OminAuth strategy for [webe.at](http://webe.at). Use it to authenticate people with their webe.at accounts.
+This is a Ruby gem containing an OminAuth strategy for [webe.at](http://webe.at). It can be used to authenticate people with their webe.at accounts.
 
 ## Usage
 
@@ -10,15 +10,16 @@ This is a Ruby gem containing an OminAuth strategy for [webe.at](http://webe.at)
 
 If you are using Bundler, install this strategy by putting `gem 'omniauth-webeat'` in your `Gemfile`.
 
-For a Rails installation, be sure to add this strategy to you OmniAuth initializer like so:
+For a Rails installation, be sure to add this strategy to your OmniAuth initializer like so:
 
 ``` ruby
 
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :webeat, "consumer_key", "consumer_secret" 
 end
-
 ```
+
+Otherwise, you may install this gem with a simple `gem install omniauth-webeat` from the commmand line.
 
 You can retrieve your consumer tokens [here](http://webe.at/oauth).
 
